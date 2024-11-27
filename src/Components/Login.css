@@ -1,0 +1,127 @@
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #8e24aa, #6a1b9a);
+    transform: translateY(-3px);
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  button.primary {
+    background: linear-gradient(45deg, #2196F3, #21CBF3);
+  }
+  
+  button.secondary {
+    background: linear-gradient(45deg, #FF5722, #FF7043);
+  }
+/* Genel Yazı Ayarları */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f0f0f0; /* Yazı rengini açık griye çevirdik */
+    line-height: 1.6;
+    background-color: #121212; /* Koyu bir arka plan rengi */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Başlık Stilleri */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff; /* Beyaz başlıklar */
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Farklı başlık boyutları */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  /* Paragraf Stili */
+  p {
+    font-size: 1rem;
+    color: #e0e0e0; /* Paragraflar için daha açık bir gri */
+    margin-bottom: 20px;
+  }
+  
+  /* Linkler */
+  a {
+    color: #ff9800; /* Turuncu tonunda vurgulu renk */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ffa726; /* Hover durumunda daha açık turuncu */
+    text-decoration: underline;
+  }
+  
+  /* Vurgulu Yazılar */
+  .important-text {
+    font-weight: bold;
+    color: #f44336; /* Vurgulanan metin için kırmızı renk */
+  }
+  
+  /* Ürün Açıklamaları */
+  .product-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #bdbdbd; /* Ürün açıklamaları için nötr bir gri */
+  }
+  
+  /* Fiyatlar */
+  .price {
+    font-size: 1.25rem;
+    color: #8bc34a; /* Fiyat için yeşil tonu */
+    font-weight: bold;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #757575; /* Eski fiyat için daha koyu gri */
+    margin-left: 10px;
+  }
+  
